@@ -5,6 +5,7 @@ public class Customer {
     Drink drink;
     float moneyGiven;
     String argue;
+    Server server;
 
     // Methods
     void sayName() {
@@ -15,16 +16,16 @@ public class Customer {
 
     }
     void pay(){
-        System.out.println("Here you go" + moneyGiven);
+        System.out.println( server.serverName + "here you go" + moneyGiven);
     }
     void argue(){
-        System.out.println("This Is too expencive!" + argue  );
+        System.out.println( server.serverName + argue  );
     }
    // void wait(){
         //System.out.println( customerName + "This is taking too long"  );
     //}
     void drinkDrink(){
-
+        System.out.println(server.serverName + "drink for" + customerName);
     }
 
 }

@@ -10,6 +10,10 @@ class Main {
         customer2.sayName();
 
 
+
+
+
+
     }
 
 }
