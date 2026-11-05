@@ -1,19 +1,19 @@
 public class Server {
 // Fields
-String name;
+String serverName;
 float moneyInRegister;
 int numberOfOrders;
 int customerPresent;
 Drink drink;
 Customer customer;
 
-void takeOrder() {
-   // System.out.println(name + " says: " + customer.name _", what would you like to order");
-}
-void prepareOrder() {
-    //System.out.println( customer.name_,"Order is being prepared" );
-}
-void announceOrder() {
+    void takeOrder() {
+    System.out.println(serverName + " says"  + customerName , what would you like to order");
+    }
+    void prepareOrder() {
+    System.out.println( customerName + ,"Order is being prepared" );
+    }
+    void announceOrder() {
 
-}
+    }
 }

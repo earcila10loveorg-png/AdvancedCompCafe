@@ -1,38 +1,15 @@
 class Main {
     public static void main(String[] args) {
         ;
-        Customer customer1 = new Customer();
-        Customer custumer1;
-        custumer1.custumerName = "cesia"
-        custumer1.sayName ();= customer1.custumerName
+        Customer customer1 = new Customer ();
+        customer1.customerName = " Cesia";
+        customer1.sayName();
 
-        Customer custumer2 = new Customer();
-        Cu
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        Customer customer2 = new Customer();
+        customer2.customerName = " Elena";
+        customer2.sayName();
 
 
     }
 
-
+}

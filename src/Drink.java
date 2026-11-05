@@ -3,8 +3,10 @@ public class Drink {
     String latteFlavor;
     int orderNumber;
 
-    void custumerOrder;{
-        System.out.println( orderNumber + "Drink me" )
 
+    void custumerOrder() {
+        System.out.println( orderNumber + "Drink me" );
     }
+
+
 }
