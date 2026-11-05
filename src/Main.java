@@ -10,6 +10,12 @@ class Main {
         customer2.sayName();
 
 
+       Server server = new Server();
+       server.serverName = "Mr. Hernandez";
+        server.sayName();
+        server.takeOrder();
+        server.prepareOrder();
+        server.announceOrder();
     }
 
 }
