@@ -11,7 +11,7 @@ public class Customer {
         System.out.println("Customer" + custumerName);
     }
     void placeOrder(){
-        System.out.println("Can I get" + drink)
+        System.out.println("Can I get" + drink);
 
     }
     void pay(){

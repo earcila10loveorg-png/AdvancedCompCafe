@@ -3,10 +3,11 @@ class Main {
         ;
         Customer customer1 = new Customer();
         Customer custumer1;
-        custumer1.custumerName =
-        custumer1.sayName ();
+        custumer1.custumerName = "cesia"
+        custumer1.sayName ();= customer1.custumerName
 
-        Customer custumer2 =
+        Customer custumer2 = new Customer();
+        Cu
 
 
 
