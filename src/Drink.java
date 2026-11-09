@@ -1,9 +1,10 @@
 public class Drink {
-    Boolean drink;
+    String drinkName;
     String latteFlavor;
     int orderNumber;
     Customer customer;
     Server server;
+    Drink drink;
 
 
     void custumerOrder() {
