@@ -12,7 +12,7 @@ public class Customer {
         System.out.println("Customer"  +  customerName);
     }
     void placeOrder(){
-        System.out.println(customerName": Can I get " + drink);
+        System.out.println(customerName + ": Can I get " + drink.drinkName + drink.latteFlavor);
 
     }
     void pay(){
