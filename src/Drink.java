@@ -4,8 +4,6 @@ public class Drink {
     int orderNumber;
     Customer customer;
     Server server;
-    Drink drink;
-
 
     void custumerOrder() {
         System.out.println( orderNumber + "Drink me" );
