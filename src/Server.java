@@ -7,6 +7,7 @@ int numberOfOrders;
 int customerPresent;
 Drink drink;
 Customer customer;
+
     void sayName() {
         System.out.println("Server "  +  serverName);
     }

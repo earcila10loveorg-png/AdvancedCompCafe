@@ -9,11 +9,21 @@ class Main {
         customer2.customerName = " Elena";
         customer2.sayName();
 
+
        Server server = new Server();
        server.serverName = "Mr. Hernandez";
         server.sayName();
+
+        customer1.server = server;
+
+
+                server.customer = customer1;
         server.takeOrder();
+        customer1.placeOrder();
+        customer1.pay();
+
         server.prepareOrder();
+
         server.announceOrder();
     }
 

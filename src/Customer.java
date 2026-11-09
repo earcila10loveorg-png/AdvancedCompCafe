@@ -16,7 +16,7 @@ public class Customer {
 
     }
     void pay(){
-        System.out.println( server.serverName + "here you go" + moneyGiven);
+        System.out.println(server.serverName + "here you go" + moneyGiven);
     }
     void argue(){
         System.out.println( server.serverName + argue  );
