@@ -9,7 +9,6 @@ class Main {
         customer2.customerName = " Elena";
         customer2.sayName();
 
-
        Server server = new Server();
        server.serverName = "Mr. Hernandez";
         server.sayName();

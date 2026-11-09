@@ -10,7 +10,7 @@ public class Drink {
         System.out.println( orderNumber + "Drink me" );
     }
     void drinkGiven () {
-        System.out.println( latteFlavor + "Drink for" customer.customerName);
+        System.out.println( latteFlavor + "Drink for" + customer.customerName);
     }
 
 }
