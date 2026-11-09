@@ -9,9 +9,9 @@ class Main {
         customer2.customerName = " Elena";
         customer2.sayName();
 
-
        Server server = new Server();
        server.serverName = "Mr. Hernandez";
+       server.customer = customer1;
         server.sayName();
 
         customer1.server = server;
@@ -20,11 +20,10 @@ class Main {
                 server.customer = customer1;
         server.takeOrder();
         customer1.placeOrder();
-        customer1.pay();
-
+        server.customer = customer1;
         server.prepareOrder();
-
         server.announceOrder();
+        server.argueOrder();
     }
 
 }
