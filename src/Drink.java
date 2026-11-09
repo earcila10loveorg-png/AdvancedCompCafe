@@ -9,8 +9,11 @@ public class Drink {
     void custumerOrder() {
         System.out.println( orderNumber + "Drink me" );
     }
-    void drinkGiven () {
-        System.out.println( latteFlavor + "Drink for" + customer.customerName);
-    }
 
+    void drinkGiven () {
+        System.out.println( latteFlavor + "Drink for" +  customer.customerName);
+    }
+    void drinkSpilled() {
+        System.out.println( customer.customerName +  "oh noo the drink"     );
+    }
 }
