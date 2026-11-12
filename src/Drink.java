@@ -1,10 +1,9 @@
 public class Drink {
-    Boolean drink;
+    String drinkName;
     String latteFlavor;
     int orderNumber;
     Customer customer;
     Server server;
-
 
     void custumerOrder() {
         System.out.println( orderNumber + "Drink me" );

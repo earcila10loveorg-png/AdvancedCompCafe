@@ -5,7 +5,6 @@ public class Server {
     float moneyInRegister;
     int numberOfOrders;
     int customerPresent;
-    Drink drink;
     Customer customer;
 
     void sayName() {
