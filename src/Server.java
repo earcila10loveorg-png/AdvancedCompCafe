@@ -13,7 +13,7 @@ public class Server {
 
     void takeOrder() {
         orderTaken = true;
-        System.out.println(serverName + " says" + customer.customerName + "what would you like to order");
+        System.out.println(serverName + " says" + customer.customerName + " what would you like to order");
     }
 
     void prepareOrder() {
@@ -27,5 +27,9 @@ public class Server {
 
     void argueOrder() {
         System.out.println(customer.customerName + " says: " + serverName + " THIS COFFEE IS TERRIBLE! HOW DARE YOU GIVE ME WHOLE MILK!");
+        System.out.println(customer.customerName + " says: " + serverName + " How are you going to fix this!");
+        System.out.println(serverName + " says: " + " You know what! IM QUITTING");
+
+
     }
 }

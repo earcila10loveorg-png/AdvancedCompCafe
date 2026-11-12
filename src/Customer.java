@@ -15,9 +15,9 @@ public class Customer {
         System.out.println(customerName + ": Can I get " + drink.drinkName + drink.latteFlavor);
 
     }
-    void pay(){
-        System.out.println( server.serverName + "here you go" + moneyGiven);
-    }
+   // void pay(){
+      //  System.out.println( server.serverName + "here you go" + moneyGiven);
+  //  }
     void argue(){
         System.out.println( server.serverName + argue  );
     }

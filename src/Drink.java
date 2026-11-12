@@ -6,13 +6,13 @@ public class Drink {
     Server server;
 
     void custumerOrder() {
-        System.out.println( orderNumber + "Drink me" );
+        System.out.println( latteFlavor + ": Drink me!" );
     }
 
     void drinkGiven () {
         System.out.println( latteFlavor + "Drink for" +  customer.customerName);
     }
-    void drinkSpilled() {
-        System.out.println( customer.customerName +  "oh noo the drink"     );
-    }
+   // void drinkSpilled() {
+       // System.out.println( customer.customerName +  "oh noo the drink"     );
+    //}
 }
