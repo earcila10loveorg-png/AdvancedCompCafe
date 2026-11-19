@@ -29,7 +29,9 @@ class Main {
         customer1.placeOrder();
         server.customer = customer1;
         server.prepareOrder();
+        //drink1.drinkGiven();
         server.announceOrder();
+        drink1.custumerOrder();
         server.argueOrder();
     }
 
