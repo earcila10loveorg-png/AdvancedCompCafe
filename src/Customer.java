@@ -6,6 +6,7 @@ public class Customer {
     float moneyGiven;
     String argue;
     Server server;
+   //int numberOfCustomers;
 
     // Methods
     void sayName() {
