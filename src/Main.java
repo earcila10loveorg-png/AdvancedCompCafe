@@ -10,6 +10,12 @@ class Main {
         ArrayList<Drink> drink;
         drink = new ArrayList<Drink>();
 
+        ArrayList<Server> servers;
+        servers = new ArrayList<Server>();
+      //  Server someone = servers.get(0);
+       // servers.remove();
+
+
         Drink drink1 = new Drink ();
         drink1.drinkName = "Unicorn Latte";
         drink1.drinkFlavor = " Strawberry flavor";
@@ -28,6 +34,23 @@ class Main {
 
         Customer customer2 = new Customer();
         customer2.customerName = " Elena";
+        customer2.sayName();
+        //Customer customer = new Customer();
+        //customer.customerName ="ALex";
+       // customer.sayName();
+        Server server1 = new Server();
+//        servers.add()
+       server1.serverName = "Mr. Hernandez";
+       servers.add(server1);
+
+       server1.customer = customer1;
+       server1.sayName();
+       server1.takeOrder();
+       customer1.placeOrder();
+
+
+        server1.customer = customer1;
+        server1.prepareOrder();
         customers.add(customer2);
         customer2.drink = drink2;
 
@@ -55,9 +78,9 @@ class Main {
         server.customer = customer1;
         server.prepareOrder();
         //drink1.drinkGiven();
-        server.announceOrder();
+        server1.announceOrder();
         drink1.custumerOrder();
-        server.argueOrder();
+        server1.argueOrder();
     }
 
 }
