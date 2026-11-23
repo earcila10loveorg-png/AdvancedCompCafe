@@ -1,6 +1,13 @@
+import java.util.ArrayList;
+
 class Main {
     public static void main(String[] args) {
-        ;
+        ArrayList<Server> servers;
+        servers = new ArrayList<Server>();
+      //  Server someone = servers.get(0);
+       // servers.remove();
+
+
         Drink drink1 = new Drink ();
         drink1.drinkName = "THEE Latte";
         drink1.latteFlavor = " Strawberry flavor";
@@ -16,18 +23,23 @@ class Main {
         //Customer customer = new Customer();
         //customer.customerName ="ALex";
        // customer.sayName();
-       Server server = new Server();
-       server.serverName = "Mr. Hernandez";
-       server.customer = customer1;
-        server.sayName();
-        server.takeOrder();
-        customer1.placeOrder();
-        server.customer = customer1;
-        server.prepareOrder();
+        Server server1 = new Server();
+//        servers.add()
+       server1.serverName = "Mr. Hernandez";
+       servers.add(server1);
+
+       server1.customer = customer1;
+       server1.sayName();
+       server1.takeOrder();
+       customer1.placeOrder();
+
+
+        server1.customer = customer1;
+        server1.prepareOrder();
         //drink1.drinkGiven();
-        server.announceOrder();
+        server1.announceOrder();
         drink1.custumerOrder();
-        server.argueOrder();
+        server1.argueOrder();
     }
 
 }

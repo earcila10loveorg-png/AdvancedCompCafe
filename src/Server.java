@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Server {
     // Fields
     String serverName;
@@ -13,7 +15,7 @@ public class Server {
 
     void takeOrder() {
         orderTaken = true;
-        System.out.println(serverName + " says" + customer.customerName + " what would you like to order");
+        System.out.println(serverName + " says" + customer.customerName + ": What would you like to order");
     }
 
     void prepareOrder() {
@@ -30,6 +32,10 @@ public class Server {
         System.out.println(customer.customerName + " says: " + serverName + " How are you going to fix this!");
         System.out.println(serverName + " says: " + " You know what! IM QUITTING");
 
+
+    }
+
+    public void add() {
 
     }
 }
