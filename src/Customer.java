@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Customer {
     // Fields
     String customerName;
@@ -13,7 +15,7 @@ public class Customer {
         System.out.println("Customer"  +  customerName);
     }
     void placeOrder(){
-        System.out.println(customerName + ": Can I get " + drink.drinkName + drink.latteFlavor);
+        System.out.println(customerName + ": Can I get " + drink.drinkName + drink.drinkFlavor);
 
     }
    // void pay(){

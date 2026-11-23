@@ -7,6 +7,7 @@ public class Server {
     int customerPresent;
     Customer customer;
 
+
     void sayName() {
         System.out.println("Server " + serverName);
     }
